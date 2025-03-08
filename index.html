@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <br>
+
+    <!-- Navigasi -->
+    <nav>
+        <div class="logo">
+            <img src="pic/logo1.webp" alt="Logo">
+        </div>
+        <ul id="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#hobby" class="nav-link">Hobby</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="menu-icon" id="menu-icon">☰</div>
+    </nav>
+    <br><br><br><br><br><br><br><br>
+    <!-- Foto Profil dan Deskripsi -->
+    <div id="home" class="profile-container">
+        <div class="profile">
+            <img src="pic/profile.webp" alt="Foto Profil">
+        </div>
+        <div id="profile-name" class="profile-name"></div>
+        <div id="profile-description" class="profile-description"></div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <!-- Seksi Hobby -->
+    <section id="hobby" class="hobby-section">
+        <h2>Hobby</h2>
+        <div class="hobby-gallery">
+            <img src="pic/jalanjalan1.jpg" alt="Jalan-jalan 1">
+            <img src="pic/jalanjalan2.jpg" alt="Jalan-jalan 2">
+            <img src="pic/jalanjalan3.jpg" alt="Jalan-jalan 3">
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br>
+    <!-- Seksi About -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>Halo! Saya adalah seorang pengembang web dan desainer yang memiliki passion dalam menciptakan tampilan web yang menarik dan fungsional. Saya suka mengeksplorasi teknologi baru dan selalu berusaha meningkatkan keterampilan saya dalam dunia digital.</p>
+    </section>
+    <br><br><br><br><br><br><br><br>
+    <!-- Seksi Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <p>Hubungi saya melalui:</p>
+        <div class="contact-links">
+            <a href="https://wa.me/6285765423724" target="_blank" class="contact-icon whatsapp">
+                <img src="pic/logowa.webp" alt="WhatsApp"> WhatsApp
+            </a>
+            <a href="https://www.instagram.com/rinasitorus02/profilecard/?igsh=MXUybXdwNHJlZXpvcw==" target="_blank" class="contact-icon instagram">
+                <img src="pic/logoig.png" alt="Instagram"> Instagram
+            </a>
+            <a href="https://www.facebook.com/share/1A8Qqqi3Qb/?mibextid=wwXIfr" target="_blank" class="contact-icon facebook">
+                <img src="pic/logofb.webp" alt="Facebook"> Facebook
+            </a>
+            <a href="https://www.youtube.com/@Rinawidya" target="_blank" class="contact-icon youtube">
+                <img src="pic/logoyt.webp" alt="YouTube"> YouTube
+            </a>
+        </div>
+    </section>
+
+    <!-- Overlay untuk Menggelapkan Video -->
+    <div class="video-overlay"></div>
+
+    <!-- Background Video -->
+    <video autoplay loop muted playsinline>
+        <source src="pic/video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+    </video>
+
+    <script src="index.js"></script> 
+</body>
+</html>
